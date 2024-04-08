@@ -13,6 +13,6 @@ def stock_history(code):
   stock_history.to_csv("dataSource/{}.csv".format(code), index = False)
 
 
-stock_history("600036")
+stock_history("601985")
 
 print(stock_history)
